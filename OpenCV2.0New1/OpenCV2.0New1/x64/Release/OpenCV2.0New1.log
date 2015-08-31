@@ -1,0 +1,668 @@
+﻿  BlobDetector.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\c++\opencv2.0new1\opencv2.0new1\CarInfo.h(36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+BlobDetector.cpp(64): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+BlobDetector.cpp(69): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(100): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+BlobDetector.cpp(101): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+BlobDetector.cpp(181): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(208): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(211): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+BlobDetector.cpp(222): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(227): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(236): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BlobDetector.cpp(261): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  Controller.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\c++\opencv2.0new1\opencv2.0new1\CarInfo.h(36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+Controller.cpp(29): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  FGDetector.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  VibeFGDetector.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+VibeFGDetector.cpp(17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+VibeFGDetector.cpp(170): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+VibeFGDetector.cpp(179): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+VibeFGDetector.cpp(230): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+VibeFGDetector.cpp(231): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+  main.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\c++\opencv2.0new1\opencv2.0new1\CarInfo.h(36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+main.cpp(81): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+          D:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(255) : 参见“strnicmp”的声明
+main.cpp(93): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          D:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(253) : 参见“stricmp”的声明
+main.cpp(103): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          D:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(253) : 参见“stricmp”的声明
+  SimpleFGDetector.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+SimpleFGDetector.cpp(93): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+opencv_core300d.lib(matrix.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(matrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(alloc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(alloc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(convert.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(convert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(copy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(copy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(stl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(stl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(system.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(system.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(arithm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(arithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opencv_core_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opencv_core_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(umatrix.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(umatrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(matop.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(matop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(stat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(stat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(kmeans.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(kmeans.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(array.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(array.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(datastructs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(datastructs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_gpu_mat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_gpu_mat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_host_mem.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_host_mem.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(cuda_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opengl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opengl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(ocl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(ocl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_kernels_core.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_kernels_core.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(parallel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(parallel.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(matmul.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(matmul.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(lapack.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(lapack.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(rand.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(rand.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(persistence.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(persistence.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_clamdblas.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_clamdblas.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_clamdfft.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_clamdfft.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_core.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(opencl_core.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_core300d.lib(pca.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_core300d.lib(pca.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_highgui300d.lib(window.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_highgui300d.lib(window.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_highgui300d.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_highgui300d.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_highgui300d.lib(window_w32.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_highgui300d.lib(window_w32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgcodecs300d.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgcodecs300d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgcodecs300d.lib(opencv_imgcodecs_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgcodecs300d.lib(opencv_imgcodecs_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(shapedescr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(shapedescr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(drawing.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(drawing.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(contours.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(contours.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(morph.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(morph.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(color.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(color.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(smooth.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(smooth.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(thresh.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(thresh.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(histogram.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(histogram.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(hershey_fonts.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(hershey_fonts.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(approx.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(approx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(filter.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(filter.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(opencl_kernels_imgproc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(opencl_kernels_imgproc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(demosaicing.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(demosaicing.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(sumpixels.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+opencv_imgproc300d.lib(sumpixels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(stdthrow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(stdthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(xdebug.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(xdebug.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(cerr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(cerr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(BlobDetector.obj 中)
+libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(BlobDetector.obj 中)
+LIBCMTD.lib(memcpy.obj) : error LNK2005: memmove 已经在 MSVCRT.lib(MSVCR120.dll) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xi_a 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xi_z 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xc_a 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xc_z 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsFlip_16u_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsFlip_32f_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsFlip_64f_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsFlip_8u_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsSortAscend_8u_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicvsSortDescend_8u_I
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C1IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C3IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_8u_C4IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C1IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C3IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16u_C4IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C1IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C3IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32s_C4IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C1IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C3IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_16s_C4IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C1IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C3IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviTranspose_32f_C4IR
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMax_16s_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMax_16u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMax_32f_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMax_8u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMin_16s_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMin_16u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMin_32f_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviMin_8u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_8u_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16u_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_16s_C4R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C1R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C3R
+opencv_core300d.lib(matrix.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviSum_32f_C4R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicvMalloc
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicvMalloc
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicvFree
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicvFree
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8u16u_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16u8u_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8u16s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16s8u_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8u32f_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16s32f_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8s32f_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16u32f_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8u32s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32s8u_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8s32s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32s8s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16u32s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16s32s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8s8u_C1Rs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8s16s_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8s16u_C1Rs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_8u8s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16s8s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16s16u_C1Rs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16u8s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_16u16s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32s16s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32s16u_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32s32f_C1R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32f8s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32f8u_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32f16u_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviConvert_32f32s_C1RSfs
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C3P3R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C4P4R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviLUTPalette_8u_C3R
+opencv_core300d.lib(convert.obj) : error LNK2001: 无法解析的外部符号 ippicviLUTPalette_8u_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C3R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C1IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C3IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_8u_C4IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C3R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C1IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C3IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16u_C4IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C3R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C1IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C3IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32s_C4IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C3R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C1IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C3IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_16s_C4IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C3R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C4R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C1IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C3IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviMirror_32f_C4IR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_16u_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_16u_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_32s_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_32s_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_32s_C4MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C1R
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16s_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16s_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16s_C4MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16u_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16u_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_16u_C4MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32f_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32f_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32f_C4MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32s_C1MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32s_C3MR
+opencv_core300d.lib(copy.obj) : error LNK2001: 无法解析的外部符号 ippicviSet_32s_C4MR
+opencv_core300d.lib(system.obj) : error LNK2001: 无法解析的外部符号 ippicvInit
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicvInit
+opencv_imgproc300d.lib(sumpixels.obj) : error LNK2001: 无法解析的外部符号 ippicvInit
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMaxEvery_32f
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMinEvery_32f
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMinEvery_16u
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMaxEvery_16u
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMinEvery_8u
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMaxEvery_8u
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMinEvery_64f
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicvsMaxEvery_64f
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAdd_8u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAdd_16u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAdd_16s_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviSub_8u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviSub_16u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviSub_16s_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviMul_16s_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviMul_16u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviMul_8u_C1RSfs
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAdd_32f_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviSub_32f_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviMul_32f_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAnd_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviOr_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviXor_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviNot_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviCompare_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviCompare_16u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviCompare_16s_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviCompare_32f_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAbsDiff_8u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAbsDiff_16u_C1R
+opencv_core300d.lib(arithm.obj) : error LNK2001: 无法解析的外部符号 ippicviAbsDiff_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16s_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16s_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16u_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16u_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_32f_C3R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_32f_C4R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_8s_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_8u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_16u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_32f_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_8u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_16u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_32f_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_8u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_8u_C3CR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_16u_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_16u_C3CR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_32f_C1R
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMean_StdDev_32f_C3CR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviMinMaxIndx_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_Inf_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_8s_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_16u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_Inf_32f_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_Inf_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L1_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_8s_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_16u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L1_32f_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L1_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNorm_L2_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_32f_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_8s_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_16u_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormDiff_L2_32f_C3CMR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_8u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_8s_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_16u_C1MR
+opencv_core300d.lib(stat.obj) : error LNK2001: 无法解析的外部符号 ippicviNormRel_L2_32f_C1MR
+opencv_core300d.lib(matmul.obj) : error LNK2001: 无法解析的外部符号 ippicvsDotProd_32f64f
+opencv_core300d.lib(matmul.obj) : error LNK2001: 无法解析的外部符号 ippicvsDotProd_64f
+opencv_core300d.lib(matmul.obj) : error LNK2001: 无法解析的外部符号 ippicviDotProd_16u64f_C1R
+opencv_core300d.lib(matmul.obj) : error LNK2001: 无法解析的外部符号 ippicviDotProd_16s64f_C1R
+opencv_core300d.lib(matmul.obj) : error LNK2001: 无法解析的外部符号 ippicviDotProd_32s64f_C1R
+opencv_highgui300d.lib(window_w32.obj) : error LNK2001: 无法解析的外部符号 __imp_CreateToolbarEx
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinBorderReplicate_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMaxBorderReplicate_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMinGetBufferSize_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderGetSize_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviMorphologyBorderInit_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviDilateBorder_32f_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_8u_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_8u_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_8u_C4R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_32f_C1R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_32f_C3R
+opencv_imgproc300d.lib(morph.obj) : error LNK2001: 无法解析的外部符号 ippicviErodeBorder_32f_C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_8u_C4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_16u_C4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_32f_C4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_8u_C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_16u_C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_32f_C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_32f_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_AC4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_16u_AC4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_32f_AC4C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_8u_P3C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_16u_P3C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviCopy_32f_P3C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_8u_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_16u_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_32f_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_8u_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_16u_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviColorToGray_32f_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_8u_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_16u_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_32f_C3C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_8u_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_16u_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToGray_32f_AC4C1R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToXYZ_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviXYZToRGB_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToXYZ_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviXYZToRGB_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToXYZ_32f_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviXYZToRGB_32f_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToHSV_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviHSVToRGB_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToHSV_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviHSVToRGB_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToHLS_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviHLSToRGB_8u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToHLS_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviHLSToRGB_16u_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviRGBToHLS_32f_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviHLSToRGB_32f_C3R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviAlphaPremul_8u_AC4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_8u_C3C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_16u_C3C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviSwapChannels_32f_C3C4R
+opencv_imgproc300d.lib(color.obj) : error LNK2001: 无法解析的外部符号 ippicviBGR565ToBGR_16u8u_C3R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicvsMalloc_8u
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicvsMalloc_8u
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicvsFree
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicvsFree
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorderGetBufferSize
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_32f_C1R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_32f_C3R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_32f_C4R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_16u_C3R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_16u_C4R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_16s_C3R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_16s_C4R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_8u_C1R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_8u_C3R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterBoxBorder_8u_C4R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMedianBorderGetBufferSize
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMedianBorder_8u_C1R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMedianBorder_16s_C1R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMedianBorder_16u_C1R
+opencv_imgproc300d.lib(smooth.obj) : error LNK2001: 无法解析的外部符号 ippicviFilterMedianBorder_32f_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GT_8u_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GT_16s_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GT_32f_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_LTVal_8u_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_LTVal_16s_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_LTVal_32f_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GTVal_8u_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GTVal_16s_C1R
+opencv_imgproc300d.lib(thresh.obj) : error LNK2001: 无法解析的外部符号 ippicviThreshold_GTVal_32f_C1R
+opencv_imgproc300d.lib(histogram.obj) : error LNK2001: 无法解析的外部符号 ippicviHistogramEven_8u_C1R
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviCrossCorrNormGetBufferSize
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviCrossCorrNorm_32f_C1R
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviCrossCorrNorm_8u32f_C1R
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviSqrDistanceNormGetBufferSize
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviSqrDistanceNorm_32f_C1R
+opencv_imgproc300d.lib(templmatch.obj) : error LNK2001: 无法解析的外部符号 ippicviSqrDistanceNorm_8u32f_C1R
+F:\c++\OpenCV2.0New1\x64\Release\OpenCV2.0New1.exe : fatal error LNK1120: 471 个无法解析的外部命令

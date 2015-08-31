@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Controller">
+      <UniqueIdentifier>{90eb85df-d324-450d-8fa8-e46579e6d344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Controller">
+      <UniqueIdentifier>{b0f1f945-64eb-4295-8f19-0b81361a85db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Controller\FGDetector">
+      <UniqueIdentifier>{d6cdbf4d-ba62-40ee-8764-2196849b2240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Controller\FGDetector">
+      <UniqueIdentifier>{29a32777-b94a-4301-87a8-3f7b8cb8a035}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobDetector.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="FGDetector.cpp">
+      <Filter>源文件\Controller\FGDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFGDetector.cpp">
+      <Filter>源文件\Controller\FGDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="VibeFGDetector.cpp">
+      <Filter>源文件\Controller\FGDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="FGDetectorFactory.cpp">
+      <Filter>源文件\Controller\FGDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="OCVFGDetector.cpp">
+      <Filter>源文件\Controller\FGDetector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FGDetector.h">
+      <Filter>头文件\Controller\FGDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFGDetector.h">
+      <Filter>头文件\Controller\FGDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="VibeFGDetector.h">
+      <Filter>头文件\Controller\FGDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="FGDetectorFactory.h">
+      <Filter>头文件\Controller\FGDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobDetector.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="OCVFGDetector.h">
+      <Filter>头文件\Controller\FGDetector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
